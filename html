@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes example</title>
+    <style>
+        div{
+            width:150px;
+            height: 150px;
+            background-color: blue;
+            border: 2px solid red;
+            animation: moving 3s infinite alternate;
+        }
+        p{
+            text-align: center;
+            font-size: 25px;
+            color: aqua;
+        }
+        @keyframes moving {
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(400px);
+           
+           
+            }
+        }
+    </style>
+</head>
+<body>
+    <div><p>Box</p></div>
+</body>
+</html>
